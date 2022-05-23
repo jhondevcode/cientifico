@@ -2,15 +2,12 @@
   "name": "cientifico",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node .",
+    "prod": "webpack --mode production --config webpack.config.js",
+    "dev": "webpack --mode development --config webpack.config.js"
   },
-  "keywords": [
-    "Javascript",
-    "SPA",
-    "Vanilla"
-  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
