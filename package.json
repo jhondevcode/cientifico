@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node .",
     "prod": "webpack --mode production --config webpack.config.js",
-    "dev": "webpack --mode development --config webpack.config.js"
+    "dev": "webpack --mode development --config webpack.config.js",
+    "serve": "webpack-dev-server --open --mode --development"
   },
   "author": "",
   "license": "MIT",
